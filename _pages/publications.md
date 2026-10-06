@@ -50,14 +50,14 @@ papers:
     title: "Refining Covariance Matrix Estimation in Stochastic Gradient Descent Through Bias Reduction"
     authors: "Ziyang Wei, Wanrong Zhu, Jingyang Lyu, Wei Biao Wu"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
-    details: "PMLR vol. 300, 2026"
+    details: "PMLR vol. 300, pp. 3565–3573, 2026"
     paperurl: "https://virtual.aistats.org/virtual/2026/poster/13784"
     arxiv: "https://arxiv.org/abs/2604.21203"
   - type: conference
     title: "General Weighted Averaging in Stochastic Gradient Descent: CLT and Adaptive Optimality"
     authors: "Ziyang Wei, Wanrong Zhu, Wei Biao Wu"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
-    details: "PMLR vol. 300, 2026"
+    details: "PMLR vol. 300, pp. 1198–1206, 2026"
     paperurl: "https://virtual.aistats.org/virtual/2026/poster/13842"
     arxiv: "https://arxiv.org/abs/2307.06915"
   - type: conference
@@ -70,7 +70,7 @@ papers:
     title: "Asymptotic Theory of SGD with a General Learning-Rate"
     authors: "Or Goldreich, Ziyang Wei, Soham Bonnerjee, Jiaqi Li, Wei Biao Wu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
-    details: "vol. 38, 2025"
+    details: "vol. 38, pp. 23242–23269, 2025"
     paperurl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/115186"
 ---
 
