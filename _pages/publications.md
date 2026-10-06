@@ -6,21 +6,52 @@ author_profile: true
 
 # Sections appear in this order.
 sections:
-  - type: conference
-    title: "Conference Papers"
-  - type: journal
-    title: "Journal Papers"
   - type: working
     title: "Working Papers"
+  - type: journal
+    title: "Journal Papers"
+  - type: conference
+    title: "Conference Papers"
 
-# To add a paper, copy a block below and edit it.
-# type: conference, journal or working. Working papers use "status" instead of "details".
+# Papers appear in the order listed. To add one, copy a block and edit it.
+# type: working, journal or conference. Working papers use "status" instead of "details".
 papers:
+  - type: working
+    title: "Finite-Sample Distribution Theory and Efficient Large-Scale Inference for Online Quantile Regression"
+    authors: "Ziyang Wei, Jiaqi Li, Lan Wang, Wei Biao Wu"
+    venue: "Journal of the American Statistical Association (T&M)"
+    status: "under review"
+    arxiv: "https://arxiv.org/abs/2610.05869"
+  - type: working
+    title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
+    authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
+    venue: "International Conference on Learning Representations (ICLR 2027)"
+    status: "under review"
+  - type: working
+    title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
+    authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
+    venue: "The Journal of Machine Learning Research (JMLR)"
+    status: "revision submitted"
+    arxiv: "https://arxiv.org/abs/2401.09346"
+  - type: journal
+    title: "Central Limit Theorems for Stochastic Gradient Descent Quantile Estimators"
+    authors: "Ziyang Wei, Jiaqi Li, Likai Chen, Wei Biao Wu"
+    venue: "IEEE Transactions on Information Theory"
+    details: "vol. 72, no. 8, pp. 6054–6070, 2026"
+    paperurl: "https://ieeexplore.ieee.org/document/11563558"
+    arxiv: "https://arxiv.org/abs/2503.02178"
+  - type: journal
+    title: "CALLR: A Semi-Supervised Cell-Type Annotation Method for Single-Cell RNA Sequencing Data"
+    authors: "Ziyang Wei, Shuqin Zhang"
+    venue: "Bioinformatics"
+    details: "vol. 37, Supplement 1, pp. i51–i58, 2021"
+    paperurl: "https://academic.oup.com/bioinformatics/article/37/Supplement_1/i51/6319673"
   - type: conference
     title: "Refining Covariance Matrix Estimation in Stochastic Gradient Descent Through Bias Reduction"
     authors: "Ziyang Wei, Wanrong Zhu, Jingyang Lyu, Wei Biao Wu"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
     details: "PMLR vol. 300, 2026"
+    paperurl: "https://virtual.aistats.org/virtual/2026/poster/13784"
     arxiv: "https://arxiv.org/abs/2604.21203"
   - type: conference
     title: "General Weighted Averaging in Stochastic Gradient Descent: CLT and Adaptive Optimality"
@@ -40,31 +71,7 @@ papers:
     authors: "Or Goldreich, Ziyang Wei, Soham Bonnerjee, Jiaqi Li, Wei Biao Wu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
     details: "vol. 38, 2025"
-    paperurl: "https://openreview.net/pdf/99e24e7827ceb1c84df73b66a26c5e78ff6d3c88.pdf"
-  - type: journal
-    title: "Central Limit Theorems for Stochastic Gradient Descent Quantile Estimators"
-    authors: "Ziyang Wei, Jiaqi Li, Likai Chen, Wei Biao Wu"
-    venue: "IEEE Transactions on Information Theory"
-    details: "vol. 72, no. 8, pp. 6054–6070, 2026"
-    paperurl: "https://ieeexplore.ieee.org/document/11563558"
-    arxiv: "https://arxiv.org/abs/2503.02178"
-  - type: working
-    title: "Finite-Sample Distribution Theory and Efficient Large-Scale Inference for Online Quantile Regression"
-    authors: "Ziyang Wei, Jiaqi Li, Lan Wang, Wei Biao Wu"
-    venue: "Journal of the American Statistical Association (T&M)"
-    status: "under review"
-    arxiv: "https://arxiv.org/abs/2610.05869"
-  - type: working
-    title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
-    authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
-    venue: "International Conference on Learning Representations (ICLR 2027)"
-    status: "under review"
-  - type: working
-    title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
-    authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
-    venue: "The Journal of Machine Learning Research (JMLR)"
-    status: "revision submitted"
-    arxiv: "https://arxiv.org/abs/2401.09346"
+    paperurl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/115186"
 ---
 
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=IysMzzwAAAAJ&hl=en">my Google Scholar profile</a>.</u>
