@@ -75,7 +75,13 @@ papers:
     paperurl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/115186"
 ---
 
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=IysMzzwAAAAJ&hl=en">my Google Scholar profile</a>.</u>
+<style>
+  .page__title { display: none; }
+  .archive__subtitle { font-size: 1.5em; }
+  .archive > .archive__subtitle:first-of-type { margin-top: 0; }
+  .archive__item-title { font-size: 1em; }
+  .archive__item-title a { text-decoration: none; }
+</style>
 
 {% capture me %}<strong>{{ site.author.name }}</strong>{% endcapture %}
 {% for section in page.sections %}
@@ -91,3 +97,5 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 </div>
 {% endif %}{% endfor %}
 {% endfor %}
+
+You can also find my articles on <u><a href="https://scholar.google.com/citations?user=IysMzzwAAAAJ&hl=en">my Google Scholar profile</a>.</u>
