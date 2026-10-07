@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
+redirect_from: /publications/
 author_profile: true
 
 # Sections appear in this order.
