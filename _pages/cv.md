@@ -9,7 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  .page__title { display: none; }
+</style>
+
 <div>
-  <object data="{{ base_path }}/files/CV_ZiyangWei.pdf" type="application/pdf" style="width: 100%; height: 85vh; min-height: 640px;"></object>
+  <object data="{{ base_path }}/files/CV_ZiyangWei.pdf" type="application/pdf" style="display: block; width: 100%; height: 85vh; min-height: 640px;"></object>
   <p><a href="{{ base_path }}/files/CV_ZiyangWei.pdf">Download PDF</a></p>
 </div>
