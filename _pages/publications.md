@@ -26,7 +26,7 @@ papers:
   - type: working
     title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
     authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
-    status: "Submitted"
+    venue: "Submitted"
   - type: working
     title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
     authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
