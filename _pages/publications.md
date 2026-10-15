@@ -7,71 +7,79 @@ author_profile: true
 
 # Sections appear in this order.
 sections:
-  - type: working
-    title: "Working Papers"
-  - type: journal
-    title: "Journal Papers"
-  - type: conference
-    title: "Conference Papers"
+  - type: jmp
+    title: "Job Market Paper"
+  - type: publication
+    title: "Publications"
+  - type: manuscript
+    title: "Selected Manuscripts and Research in Progress"
 
 # Papers appear in the order listed. To add one, copy a block and edit it.
-# type: working, journal or conference. Working papers use "status" instead of "details".
+# type: jmp, publication or manuscript. Papers with a "status" show it instead of "Published in ...".
 papers:
-  - type: working
+  - type: jmp
     title: "Finite-Sample Distribution Theory and Efficient Large-Scale Inference for Online Quantile Regression"
     authors: "Ziyang Wei, Jiaqi Li, Lan Wang, Wei Biao Wu"
     venue: "Journal of the American Statistical Association (T&M)"
     status: "under review"
     arxiv: "https://arxiv.org/abs/2610.05869"
-  - type: working
-    title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
-    authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
-    status: "Submitted"
-  - type: working
-    title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
-    authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
-    venue: "The Journal of Machine Learning Research (JMLR)"
-    status: "revision submitted"
-    arxiv: "https://arxiv.org/abs/2401.09346"
-  - type: journal
+  - type: publication
     title: "Central Limit Theorems for Stochastic Gradient Descent Quantile Estimators"
     authors: "Ziyang Wei, Jiaqi Li, Likai Chen, Wei Biao Wu"
     venue: "IEEE Transactions on Information Theory"
     details: "vol. 72, no. 8, pp. 6054–6070, 2026"
     paperurl: "https://ieeexplore.ieee.org/document/11563558"
     arxiv: "https://arxiv.org/abs/2503.02178"
-  - type: journal
-    title: "CALLR: A Semi-Supervised Cell-Type Annotation Method for Single-Cell RNA Sequencing Data"
-    authors: "Ziyang Wei, Shuqin Zhang"
-    venue: "Bioinformatics"
-    details: "vol. 37, Supplement 1, pp. i51–i58, 2021"
-    paperurl: "https://academic.oup.com/bioinformatics/article/37/Supplement_1/i51/6319673"
-  - type: conference
+  - type: publication
     title: "Refining Covariance Matrix Estimation in Stochastic Gradient Descent Through Bias Reduction"
     authors: "Ziyang Wei, Wanrong Zhu, Jingyang Lyu, Wei Biao Wu"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
     details: "PMLR vol. 300, pp. 3565–3573, 2026"
     paperurl: "https://virtual.aistats.org/virtual/2026/poster/13784"
     arxiv: "https://arxiv.org/abs/2604.21203"
-  - type: conference
+  - type: publication
     title: "General Weighted Averaging in Stochastic Gradient Descent: CLT and Adaptive Optimality"
     authors: "Ziyang Wei, Wanrong Zhu, Wei Biao Wu"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
     details: "PMLR vol. 300, pp. 1198–1206, 2026"
     paperurl: "https://virtual.aistats.org/virtual/2026/poster/13842"
     arxiv: "https://arxiv.org/abs/2307.06915"
-  - type: conference
+  - type: publication
     title: "Gaussian Approximation and Concentration of Constant Learning-Rate Stochastic Gradient Descent"
     authors: "Ziyang Wei, Jiaqi Li, Zhipeng Lou, Wei Biao Wu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
     details: "vol. 38, pp. 85003–85033, 2025"
     paperurl: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7aae9e3ec211249e05bd07271a6b1441-Abstract-Conference.html"
-  - type: conference
+  - type: publication
     title: "Asymptotic Theory of SGD with a General Learning-Rate"
     authors: "Or Goldreich, Ziyang Wei, Soham Bonnerjee, Jiaqi Li, Wei Biao Wu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
     details: "vol. 38, pp. 23242–23269, 2025"
     paperurl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/115186"
+  - type: publication
+    title: "CALLR: A Semi-Supervised Cell-Type Annotation Method for Single-Cell RNA Sequencing Data"
+    authors: "Ziyang Wei, Shuqin Zhang"
+    venue: "Bioinformatics"
+    details: "vol. 37, Supplement 1, pp. i51–i58, 2021"
+    paperurl: "https://academic.oup.com/bioinformatics/article/37/Supplement_1/i51/6319673"
+  - type: manuscript
+    title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
+    authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
+    venue: "The Journal of Machine Learning Research (JMLR)"
+    status: "revision submitted"
+    arxiv: "https://arxiv.org/abs/2401.09346"
+  - type: manuscript
+    title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
+    authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
+    status: "Submitted"
+  - type: manuscript
+    title: "Attention to Quantiles: Statistical Theory for Regularized SGD"
+    authors: "Junyu Chen, Weining Wang, Ziyang Wei, Wei Biao Wu"
+    status: "Submitted"
+  - type: manuscript
+    title: "Uniform Confidence Bands for Continuous Treatment Effects with Nonparametric Caliper Weighting"
+    authors: "Ziyang Wei, José R. Zubizarreta, Junwei Lu"
+    status: "Working paper"
 ---
 
 <style>
