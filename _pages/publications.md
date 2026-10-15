@@ -26,7 +26,7 @@ papers:
   - type: working
     title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
     authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
-    venue: "Submitted"
+    status: "Submitted"
   - type: working
     title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
     authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
@@ -90,7 +90,7 @@ papers:
   <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
     <h2 class="archive__item-title" itemprop="headline">{% if link %}<a href="{{ link }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h2>
     <p class="archive__item-excerpt">{{ paper.authors | replace: site.author.name, me }}</p>
-    <p class="archive__item-excerpt">{% if paper.status %}<i>{{ paper.venue }}</i>, {{ paper.status }}{% else %}Published in <i>{{ paper.venue }}</i>, {{ paper.details }}{% endif %}</p>
+    <p class="archive__item-excerpt">{% if paper.status %}{% if paper.venue %}<i>{{ paper.venue }}</i>, {% endif %}{{ paper.status }}{% else %}Published in <i>{{ paper.venue }}</i>, {{ paper.details }}{% endif %}</p>
     {% if paper.paperurl or paper.arxiv %}<p class="archive__item-excerpt">{% if paper.paperurl %}[<a href="{{ paper.paperurl }}">Paper</a>] {% endif %}{% if paper.arxiv %}[<a href="{{ paper.arxiv }}">arXiv</a>]{% endif %}</p>{% endif %}
   </article>
 </div>
