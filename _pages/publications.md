@@ -26,8 +26,7 @@ papers:
   - type: working
     title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
     authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
-    venue: "International Conference on Learning Representations (ICLR 2027)"
-    status: "under review"
+    status: "Submitted"
   - type: working
     title: "High Confidence Level Inference is Almost Free using Parallel Stochastic Optimization"
     authors: "Wanrong Zhu, Zhipeng Lou, Ziyang Wei, Wei Biao Wu"
