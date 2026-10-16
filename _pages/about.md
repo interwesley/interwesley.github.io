@@ -13,3 +13,5 @@ I am a PhD candidate in the [Department of Statistics](https://stat.uchicago.edu
 
 
 My research focuses on stochastic optimization, quantile regression, and modern machine learning. I am particularly interested in the theoretical foundations and methodology of uncertainty quantification for online learning and optimization algorithms. I also collaborate on problems in causal inference and single-cell clustering.
+
+**I am on the 2026–2027 job market.**
