@@ -72,6 +72,7 @@ papers:
     title: "Exact Tail Laws for Nonlinear SGD with Infinite-Variance Gradients"
     authors: "Xiaoli Li, Qianqian Lei, Ziyang Wei, Wei Biao Wu"
     status: "Submitted"
+    arxiv: "https://arxiv.org/abs/2610.23750"
   - type: manuscript
     title: "Attention to Quantiles: Statistical Theory for Regularized SGD"
     authors: "Junyu Chen, Weining Wang, Ziyang Wei, Wei Biao Wu"
