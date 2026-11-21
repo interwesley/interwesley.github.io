@@ -1,6 +1,6 @@
 ---
 permalink: /
-excerpt: "About me"
+excerpt: "Ziyang Wei is a PhD candidate in Statistics at the University of Chicago working on stochastic optimization, quantile regression, and uncertainty quantification."
 author_profile: true
 redirect_from:
   - /about/
